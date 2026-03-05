@@ -18,57 +18,36 @@ _Markdown 是一种轻量级纯文本标记语言。本课程我们将学习使�
 </header>
 
 <!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
+  <<< Author notes: Step 2 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
 -->
 
-## Step 1: 添加标题
+## Step 2: 添加图片
 
-_欢迎来到 "Communicate using Markdown" 课程! :wave:_
+_干得漂亮！标题添加得很成功！ :sparkles:_
 
-**什么是 _Markdown_？** Markdown 是 GitHub 使用的一种[轻量级文本标记语言](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)。 
-你可以用它给文字添加标题、列表、**加粗**、_斜体_、表格以及其他样式。Markdown 可用在 GitHub 很多地方，包括：
+接下来，我们来添加一张图片。下是添加图片的 Markdown 语法示例：
 
-- [Issues](https://docs.github.com/issues/tracking-your-work-with-issues/about-issues), [Pull Requests](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests), 和 [Discussions](https://docs.github.com/discussions/collaborating-with-your-community-using-discussions/about-discussions) 中的评论
-- 扩展名为 `.md` or `.markdown` 的文件
-- 通过 [Gists](https://docs.github.com/github/writing-on-github/editing-and-sharing-content-with-gists/creating-gists) 分享代码或文本片段
-
-**什么是 _标题_ ?** 标题是出现在某一部分开头的较大字号文字，和我们常用的 Word 类似一共分为六级。
-
-### 语法示例
+### Example
 
 ```md
-# This is an `<h1>` header, which is the largest
-
-## This is an `<h2>` header
-
-###### This is an `<h6>` header, which is the smallest
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 ```
 
-#### 显示效果
+方括号里的文字是图片说明(alt-text)，用来帮助使用屏幕阅读器的人了解图片内容；如果网络不好导致图片加载失败，也会显示这段文字。下面是插入图片的语法示例。
 
-# 这是一个 `<h1>` 一级标题, 字号最大
+#### 预览效果
 
-## 这是一个 `<h2>` 二级标题
+<img alt="Image of Yaktocat" src=https://octodex.github.com/images/yaktocat.png width=400>
 
-###### 这是一个 `<h6>` 标题, 字号最小
+### :keyboard: 实操环节
 
-### :keyboard: 实操环节: 在文件中添加标题
-
-1. 打开一个新的浏览器标签页，方便一边操作一边阅读本教程。
-2. 进入 **pull requests** tab页。
-3. 点击 **New pull request**，在对比分支中选择 `base: main` 和 `compare: start-markdown`。
-4. 点击 **Create pull request**。
-5. 在这个 pull request 中，进入 **Files changed** tab。我们已经为你创建了一个空文件 `index.md`。
-6. 在 `index.md` 的右上角三点 **...** 菜单中选择 **Edit file**。
-7. 在 **Edit file** 页面，为任意内容前加上一个 `#` 和一个空格，创建一个 H1 标题。你也可以根据需要使用一到六个 `#` 字符加空格来添加其他级别的标题。
-8. 在你写好的内容上方点击 **Preview** 查看预览效果。
-9. 页面底部填写一条简洁、有意义的提交说明，描述你对文件的修改。
-10. 点击 **Commit changes**。
-11. 等待大约20秒，然后刷新当前课程页面。[GitHub Actions](https://docs.github.com/en/actions) 会自动检测并进入下一步
+1. 和上一步一样，编辑 Pull Request 中的 `index.md` 文件。
+2. 在文件中，添加你所选图片的正确 Markdown 语法。别忘了写上图片说明(alt-text)！
+3. 切换到 **Preview** 检查你的 Markdown 格式是否正确。
+4. 提交你的修改(Commit)。
+5. 等待大约20秒，然后刷新当前课程页面。[GitHub Actions](https://docs.github.com/en/actions) 会自动检测并进入下一步
 
 <footer>
 
